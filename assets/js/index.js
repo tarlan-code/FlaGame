@@ -29,11 +29,11 @@ var downloadTimer = setInterval(function () {
 
 
 
+let data = fetch('https://restcountries.com/v3.1/all').then(res => res.json());
 
 
 
-
-fetch('https://restcountries.com/v3.1/all').then(res => res.json()).then(data => {
+data.then(data => {
 
 
 
