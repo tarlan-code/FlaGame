@@ -20,7 +20,7 @@ function get() {
 }
 
 
-let timeleft = 6;
+let timeleft = 60;
 var Timer = setInterval(function () {
     timeleft--;
     document.getElementById("time").textContent = timeleft;
