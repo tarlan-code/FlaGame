@@ -1,0 +1,41 @@
+h1{
+    font-family: 'Black Ops One' !important;
+    font-size: 150px;
+    color: #3FC1C9;
+}
+
+h1 span{
+    color:#FC5185;
+}
+
+.nickname span, #point{
+   font-family: 'Black Ops One' !important;
+   color: #364F6B;
+   
+}
+
+#nickname span, #time{
+    color: #FC5185;
+}
+input,
+.input-group {
+  max-width: 50%;
+}
+
+#img{
+
+    border-radius: 8%;
+}
+
+#img img{
+
+    padding: 20px;
+    background-color: #364F6B;
+}
+
+
+.animation{
+    margin-top: -50%;
+    position: relative;
+}
+

@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Black Ops One' !important;
+    color: #3FC1C9;
+}
+
+h1 span,h2 span,h5 span{
+    color:#FC5185;
+}
+
+h2,h5{
+    font-family: 'Black Ops One' !important;
+    color: #3FC1C9;
+}

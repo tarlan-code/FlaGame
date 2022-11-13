@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Black Ops One' !important;
+    font-size: 15vw;
+    color: #3FC1C9;
+}
+
+h1 span{
+    color:#FC5185;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+label{
+    font-family: 'Sono';
+    color: #FC5185;
+    font-weight: 400;
+}
+
+.btn{
+    background-color: #364F6B;
+}
+
+.btn:hover{
+    background-color: #3FC1C9;
+}
