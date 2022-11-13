@@ -20,12 +20,16 @@ function get() {
 }
 
 
-let timeleft = 60;
-var downloadTimer = setInterval(function () {
+let timeleft = 6;
+var Timer = setInterval(function () {
     timeleft--;
     document.getElementById("time").textContent = timeleft;
-    if (timeleft <= 0)
+    if (timeleft <= 0){
+        document.getElementById("time").textContent = "Time's up!";
+        document.querySelector(".form").innerHTML = `<span> Game Over</span>`;
         get();
+
+    }
 }, 1000);
 
 
