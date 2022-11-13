@@ -6,7 +6,8 @@ const nickname = document.getElementById('nickname');
 const animation = document.getElementById('animation')
 
 
-let link = location.search.split("&");
+let link = decodeURI(location.search);
+link = link.split('&');
 
 let usernickname = link[1].split("=")[1];
 let lang = link[2].split("=")[1].toLowerCase();
