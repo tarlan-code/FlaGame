@@ -15,8 +15,7 @@ nickname.innerHTML = `Nickname: <span>${usernickname}</span>`;
 
 let score = 0;
 function get() {
-    alert("Time is up!");
-    window.open("../../gameover.html?&score="+ score +"&name=" + usernickname, "_self")
+    window.open("gameover.html?&score="+ score +"&name=" + usernickname, "_self")
 }
 
 
@@ -75,7 +74,7 @@ fetch('https://restcountries.com/v3.1/all').then(res => res.json()).then(data =>
         do {
             if (randIndexArray.length == len) {
                 alert("You fond all flags");
-                window.open(`../../gameover.html?${len}`, "_self");
+                window.open(`gameover.html?${len}`, "_self");
             }
             randIndex = Math.floor(Math.random() * len);
         } while (randIndexArray.includes(randIndex)) {
